@@ -1,0 +1,10 @@
+Algorithm:
+	1.Define a function named 'sumByDay' that takes a dictionary 'D' as an argument.
+	2.Create an array 'days' that contains the names of the days of the week in order: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"].
+	3.Create an empty object 'output'.
+	4.Loop through the 'days' array and set the initial value of each day in the 'output' object to 0.
+	5.For each key-value pair in the input 'D' dictionary, do the following:
+		a. Create a new Date object using the current key and store it in a variable named 'date'.
+		b. Get the day of the week from the 'date' object and store it in a variable named 'dayOfWeek'.
+		c. Add the value of the current key to the corresponding day in the 'output' object.
+	6.Return the 'output' object.
